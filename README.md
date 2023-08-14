@@ -1,25 +1,19 @@
 # Título del Proyecto
-
 Nombre autoexplicativo del proyecto, con una breve descripción.
 
 ## Descripción
-
 Una descripción más detallada y técnica del proyecto, incluyendo sus principales características, su propósito y cómo funciona.
 
 ## Insignias
-
 Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
 
 ## Visuales
-
 Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y cómo usarlo.
 
 ## Empezando 🚀
-
 Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 ### Prerrequisitos 📋
-
 Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
 - Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
@@ -29,7 +23,6 @@ Lista de software y herramientas, incluyendo versiones, que necesitas para insta
 - Otros...
 
 ### Instalación 🔧
-
 Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
 
 ```bash
@@ -43,7 +36,6 @@ Y así sucesivamente...
 ```
 
 ## Ejecutando las Pruebas ⚙️
-
 Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
 
 ```bash
@@ -51,11 +43,9 @@ Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
 ```
 
 ### Pruebas de Principio a Fin 🔩
-
 Explica qué cubren estas pruebas, por qué son importantes y cómo interpretar sus resultados.
 
 ### Pruebas de Estilo de Código ⌨️
-
 Descripción y ejemplos de las pruebas de estilo que estás utilizando.
 
 ```bash
@@ -63,11 +53,9 @@ Descripción y ejemplos de las pruebas de estilo que estás utilizando.
 ```
 
 ## Despliegue 📦
-
 Instrucciones sobre cómo desplegar esto en un sistema en vivo o ambiente de producción.
 
 ## Construido Con 🛠️
-
 Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
 
 - [Ruby](https://www.ruby-lang.org/es/) - El lenguaje utilizado
@@ -77,39 +65,31 @@ Explica qué tecnologías usaste para construir este proyecto. Aquí algunos eje
 - [Bulma IO](https://bulma.io) - Framework de CSS
 
 ## Contribuyendo 🖇️
-
 Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada. Por favor, lee el [CONTRIBUTING.md](https://gist.github.com/brayandiazc/xxxxxx) para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
-
 Puedes encontrar mucho más sobre cómo usar este proyecto en nuestra [Wiki](https://github.com/your/project/wiki)
 
 ## Soporte
-
 Si tienes algún problema o sugerencia, por favor abre un problema [aquí](https://github.com/your/project/issues).
 
 ## Roadmap
-
 Ideas, mejoras planificadas y actualizaciones futuras
 
 para el proyecto actual.
 
 ## Versionado 📌
-
 Usamos [Git](https://git-scm.com) para el versionado. Para las versiones disponibles, ve las [etiquetas en este repositorio](https://github.com/your/project/tags).
 
 ## Autores ✒️
-
 - **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
 
 Mira también la lista de [contribuidores](https://github.com/your/project/contributors) que han participado en este proyecto.
 
 ## Licencia 📄
-
 Este proyecto está bajo la Licencia XYZ - ve el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
-
 Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
 
 - Comparte este proyecto con otros
@@ -120,7 +100,6 @@ Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si e
 ---
 
 ## Consejos Adicionales 📝
-
 Aquí hay algunos consejos extra para aprovechar al máximo tu README:
 
 - Mantén cada sección lo más concisa posible. Evita la pelusa innecesaria, ya que puede ser abrumadora para el lector.
