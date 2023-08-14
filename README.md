@@ -1,59 +1,128 @@
 # Título del Proyecto
-Nombre autoexplicativo del proyecto, con una breve descripción.
+Proyecto howarts rails
 
 ## Descripción
-Una descripción más detallada y técnica del proyecto, incluyendo sus principales características, su propósito y cómo funciona.
-
-## Insignias
-Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
-
-## Visuales
-Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y cómo usarlo.
+El proyecto obtine los datos desde la gema faker y se muestran en la vista para consulta del usuario
 
 ## Empezando 🚀
 Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-### Prerrequisitos 📋
+### Pre requisitos 📋
 Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
 - Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
-- Lenguaje de programación (por ejemplo, Python 3.8)
-- Framework (por ejemplo, Django 3.1)
+- Lenguaje de programación (por ejemplo, Ruby)
+- Framework (por ejemplo, Rails)
 - Base de datos (por ejemplo, PostgreSQL 12)
 - Otros...
 
 ### Instalación 🔧
 Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
 
-```bash
-# paso 1
+```
+creo proyecto rails con base de datos postgresql
+	rails new nombre proyecto -d postgresql
+
+ingreso al proyecto
+	cd funciona
+	
+	crear repo
+
+activo postgresql
+	sudo service postgresql start
+
+ingreso a psql
+	sudo -u postgres psql
+
+
+
+				OTRO METODO
+				creo scaffold (modelo vista controlador)
+					rails g scaffold post title body:text author
+					
+					creo base de datos
+						rails db:create
+						
+					creo migracion
+						rails db:migrate
+						
+					revisar configuracion en vscode
+						code .
+					
+					abrir archivo de rutas
+						config -> routes
+						
+						
+					editar rutas (descomentar)
+					root "posts#index" -> guardar
+					
+					correr servidor
+					rails s
+					
+					revisar en localhost/posts
+					aparece formulario
+					
+					conectar con Heroku CLI
+					curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+					
+					logearse con Heroku
+					heroku login -> enter (Abre CLI en navegador)
+					
+					pedro.donoso.r@usach.cl
+					Deve2024
+					
+					crear repositorio en git
+					add . -> pegar desde local
+					
+					crear app en Heroku
+					heroku create
+					
+					conectar github con heroku
+					new app -> colocar mismo nombre repositorio
+					región eu -> create
+					
+					
+					
+creo controlador (pagina principal home y pestañas index y about)
+	rails g controller home index about
+
+creo modelo
+	rails g model user name
+
+ingresar a base de datos
+	sudo -u postgres psql
+
+listo base de datos
+	\l
+
+creo base de datos
+	rails db:create
+
+reviso 2 bases de datos creadas en dbeaber
+	creo migracion	
+
+creo migración
+	rails db:migrate
+	
+reviso 2 bases de datos creadas en psql
+sudo -u postgres psql
+
+me conecto a la base de datos development
+\c funciona_development
+
+listo las tablas de la base de datos
+\d
+
+acceso a la estructura de la base de datos
+\dt users
+
+inicio servidor}
+rails s
+
+buscar localhost pagina principal y pestañas creadas
+home/index
 ```
 
-Y así sucesivamente...
-
-```bash
-# paso 2
-```
-
-## Ejecutando las Pruebas ⚙️
-Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
-
-```bash
-# proporciona un ejemplo
-```
-
-### Pruebas de Principio a Fin 🔩
-Explica qué cubren estas pruebas, por qué son importantes y cómo interpretar sus resultados.
-
-### Pruebas de Estilo de Código ⌨️
-Descripción y ejemplos de las pruebas de estilo que estás utilizando.
-
-```bash
-# proporciona un ejemplo
-```
-
-## Despliegue 📦
-Instrucciones sobre cómo desplegar esto en un sistema en vivo o ambiente de producción.
 
 ## Construido Con 🛠️
 Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
