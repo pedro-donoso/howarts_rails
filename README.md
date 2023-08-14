@@ -1,5 +1,8 @@
 # Howarts Rails
 
+![Captura desde 2023-08-14 01-24-10](https://github.com/pedro-donoso/howarts_rails/assets/68760595/97159237-4795-44ac-a809-9632d375ad89)
+
+
 ## Descripción
 El proyecto obtine los datos desde la gema faker y se muestran en la vista para consulta del usuario
 
