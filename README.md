@@ -1,5 +1,4 @@
-# Título del Proyecto
-Proyecto howarts rails
+# Howarts Rails
 
 ## Descripción
 El proyecto obtine los datos desde la gema faker y se muestran en la vista para consulta del usuario
@@ -19,37 +18,61 @@ Lista de software y herramientas, incluyendo versiones, que necesitas para insta
 ### Instalación 🔧
 Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
 
+- creo proyecto rails con base de datos postgresql
+
 ```
-creo proyecto rails con base de datos postgresql
-	rails new nombre proyecto -d postgresql
+rails new nombreproyecto -d postgresql
 
-ingreso al proyecto
-	cd funciona
-	
-	crear repo
+```
+- Ingreso al proyecto
 
-activo postgresql
-	sudo service postgresql start
+```
+cd nombreproyecto
 
-ingreso a psql
+```
+
+- crear repositorio
+
+- activo postgresql
+
+
+```
+  sudo service postgresql start
+
+```
+
+- ingreso a psql
+
+  
+```
 	sudo -u postgres psql
 
+```
 
 
-				OTRO METODO
-				creo scaffold (modelo vista controlador)
+- creo scaffold (modelo vista controlador)
+```
 					rails g scaffold post title body:text author
+```
 					
-					creo base de datos
+					- creo base de datos
+     ```
 						rails db:create
+      ```
 						
-					creo migracion
-						rails db:migrate
+					- creo migracion
+
+      ```
+      rails db:migrate
+      ```
 						
-					revisar configuracion en vscode
-						code .
+					- revisar configuracion en vscode
+	```					
+      
+      code .
+      ```
 					
-					abrir archivo de rutas
+					- abrir archivo de rutas
 						config -> routes
 						
 						
@@ -68,8 +91,7 @@ ingreso a psql
 					logearse con Heroku
 					heroku login -> enter (Abre CLI en navegador)
 					
-					pedro.donoso.r@usach.cl
-					Deve2024
+				
 					
 					crear repositorio en git
 					add . -> pegar desde local
@@ -83,11 +105,7 @@ ingreso a psql
 					
 					
 					
-creo controlador (pagina principal home y pestañas index y about)
-	rails g controller home index about
 
-creo modelo
-	rails g model user name
 
 ingresar a base de datos
 	sudo -u postgres psql
